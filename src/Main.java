@@ -1,10 +1,10 @@
 import math.Factorial;
 import math.SumOfNumbers;
+import string.VowelsConsonants;
 
 public class Main {
     public static void main(String[] args) {
-//        System.out.println(Factorial.factorialNumber(25));
-        System.out.println(SumOfNumbers.sumNumber(100));
+        VowelsConsonants.vowelsConsonants("Hello World");
     }
 
 }
