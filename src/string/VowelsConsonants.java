@@ -3,18 +3,18 @@ package string;
 public class VowelsConsonants {
 
     public static void vowelsConsonants(String slovo) {
-        int Vowels = 0;
-        int Consonants = 0;
+        int vowels = 0;
+        int consonants = 0;
         slovo = slovo.toLowerCase();
         for (int i = 0; i < slovo.length(); i++) {
             if (slovo.charAt(i) == 'a' || slovo.charAt(i) == 'e' || slovo.charAt(i) == 'i' || slovo.charAt(i) == 'o' || slovo.charAt(i) == 'u') {
-                Vowels = Vowels + 1;
+                vowels = vowels + 1;
             }
             else {
-                Consonants = Consonants + 1;
+                consonants = consonants + 1;
             }
         }
-        System.out.println("Гласных: " + Vowels + " Согласных:" + Consonants);
+        System.out.println("Гласных: " + vowels + " Согласных:" + consonants);
     }
 }
 
